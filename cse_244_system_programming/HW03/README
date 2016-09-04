@@ -1,0 +1,18 @@
+Emrah YILDIRIM
+111044056
+
+SYSTEM PROGRAMMING HW03
+newWordCounter in a specific folder and subfolders
+
+
+USAGE: ./newWordCounter mainFolderName 
+
+
+
+
+1. Öncelikle dosya sayısı bulunmuş ve buna göre memoryde yer alınmıştır.
+2. Var olan tüm dosya ve klasörler bulunmuş ve string arrayine yazılmıştır.
+3. Sonrasında her bir dosyas yoluna göre ayrı ayrı processler oluşturularak her bir dosyanın içerdiği farklı 
+   kelime sayısı bulunmuş ve pipe yoluyla ana process e gönderilmiştir.
+4. Bulunana kelimeler ve kaçar kere bulundukları log.txt dosyasına yazılmıştır.
+5. Dosyanın sonuna genel bilgiler yazılmıştır.

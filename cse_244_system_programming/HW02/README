@@ -1,0 +1,17 @@
+Emrah YILDIRIM
+111044056
+
+SYSTEM PROGRAMMING HW02
+WordCounter in a specific folder and subfolders
+
+
+USAGE: ./wordcount mainFolderName 
+
+
+
+
+1. Öncelikle dosya sayısı bulunmuş ve buna göre memoryde yer alınmıştır.
+2. Var olan tüm dosya ve klasörler bulunmuş ve string arrayine yazılmıştır.
+3. Sonrasında her bir dosyas yoluna göre ayrı ayrı processler oluşturularak her bir dosyanın içerdiği kelime sayısı bulunmuştur.
+4. Processlerin sıraları, pidleri, ve hangi dosya ile ilgilenip kaç kelime buldukları ekrana yazılmaktadır.
+5. En sonda bulunan tüm dosya, klasör ve kelime sayıları ekrana yazılmıştır.

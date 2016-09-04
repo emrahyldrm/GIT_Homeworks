@@ -1,0 +1,24 @@
+CSE 244 HW01 README 
+
+MoreORLess
+
+USAGE>> ./exe file.txt lineNumber
+
+------------------------------------------------------------
+
+1. ENTER a basıldığında bulunulan konuma 1 satır daha eklenmiş halini ekrana basar. Satır uzunluğu terminal uzunluğuna bağlıdır. 
+
+2. ESC ye basıldığında program çalışmaya başlantılırken argüman olarak girilen satır sayısı kadar daha ekleme yapar.
+
+3. (U,u - D,d)Buffer üzerinde hareket etmek için u(yukarı için) - d(aşağı için) tuşları kullanılır. Büyük küçük karakter duyarlılığı yoktur. Gezilebilecek alan alan ENTER 	ya da ESC ile gelinmiş olan en son noktaya kadar gidebilir(BUFFER).
+
+4. Q-q ya basıldığında programdan çıkılır.
+
+5. New line a dikkat edilme text bir bütün olarak değerlendirilir.
+
+6. Ayrıca okunan kısmın yüzdesi de gösterilmektedir.
+
+------------------------------------------------------------
+
+111044056
+Emrah YILDIRIM

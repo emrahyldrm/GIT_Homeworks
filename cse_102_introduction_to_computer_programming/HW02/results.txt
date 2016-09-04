@@ -1,0 +1,62 @@
+1ST RULE;
+TRUE for x=1, y=1, z=1 
+TRUE for x=1, y=1, z=0 
+TRUE for x=1, y=0, z=0 
+TRUE for x=1, y=0, z=1 
+TRUE for x=0, y=0, z=1 
+TRUE for x=0, y=1, z=0 
+TRUE for x=0, y=1, z=1 
+TRUE for x=0, y=0, z=0 
+>> THE SYSTEM VERIFIES 1ST RULE
+
+2TH RULE;
+TRUE for x=1, y=1, z=1 
+TRUE for x=1, y=1, z=0 
+TRUE for x=1, y=0, z=0 
+TRUE for x=1, y=0, z=1 
+TRUE for x=0, y=0, z=1 
+TRUE for x=0, y=1, z=0 
+TRUE for x=0, y=1, z=1 
+TRUE for x=0, y=0, z=0 
+>> THE SYSTEM VERIFIES 2ND RULE
+
+3RD RULE;
+TRUE for x=1, y=1 
+TRUE for x=1, y=0 
+TRUE for x=0, y=1 
+TRUE for x=0, y=0 
+>> THE SYSTEM VERIFIES 3RD RULE
+
+4TH RULE;
+TRUE for x=1, y=1 
+TRUE for x=1, y=0 
+TRUE for x=0, y=1 
+TRUE for x=0, y=0 
+>> THE SYSTEM VERIFIES 4TH RULE
+
+5TH RULE;
+TRUE for x=1, y=1, z=1 
+TRUE for x=1, y=1, z=0 
+TRUE for x=1, y=0, z=0 
+TRUE for x=1, y=0, z=1 
+TRUE for x=0, y=0, z=1 
+TRUE for x=0, y=1, z=0 
+TRUE for x=0, y=1, z=1 
+TRUE for x=0, y=0, z=0 
+>> THE SYSTEM VERIFIES 5TH RULE
+
+6TH RULE;
+TRUE for x=1 
+TRUE for x=0 
+>> THE SYSTEM VERIFIES 6TH RULE
+
+7TH RULE;
+TRUE for x=1 
+TRUE for x=0 
+>> THE SYSTEM VERIFIES 7TH RULE
+
+8TH RULE;
+TRUE for x=1 
+TRUE for x=0 
+>> THE SYSTEM VERIFIES 8TH RULE
+

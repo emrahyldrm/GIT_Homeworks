@@ -1,0 +1,20 @@
+Emrah YILDIRIM
+111044056
+
+SYSTEM PROGRAMMING HW04
+newWordCounter in a specific folder and subfolders with threads
+
+
+USAGE: ./newWordCounter mainFolderName 
+
+
+
+
+1. Öncelikle dosya sayısı bulunmuş ve buna göre memoryde yer alınmıştır.
+2. Var olan tüm dosya ve klasörler bulunmuş ve string arrayine yazılmıştır.
+3. Sonrasında her bir dosya/klasor yoluna göre ayrı ayrı threadler/processler oluşturularak her bir dosyanın içerdiği farklı 
+   kelime sayısı bulunmuştur.
+   bulunan kelimeler öncekilerle karsılastırılarak varsa counter lar artırılmış yoksa yeni ekleme yapılmıştır
+4. Bulunana kelimeler ve kaçar kere bulundukları log.txt dosyasına yazılmıştır.
+5. Dosyanın sonuna genel bilgiler yazılmıştır.
+6. Named semaphore ve shared memory kullanımına gidilmiştir.

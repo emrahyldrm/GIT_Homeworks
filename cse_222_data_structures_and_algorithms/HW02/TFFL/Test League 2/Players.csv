@@ -1,0 +1,198 @@
+playerid1;musa;10.10.1985;taşova;fb
+playerid2;ahmet;11.10.1985;hamamözü;fb
+playerid3;berke;12.10.1985;altındağ;fb
+playerid4;salih;13.10.1985;ayaş;fb
+playerid5;can;14.10.1985;bala;fb
+playerid6;fırat;15.10.1985;beypazarı;fb
+playerid7;ali;16.10.1985;çamlıdere;fb
+playerid8;bilal;17.10.1985;çankaya;fb
+playerid9;recep;18.10.1985;çubuk;fb
+playerid10;baris;19.10.1985;elmadağ;fb
+playerid11;erhan;20.10.1985;güdül;fb
+playerid12;caner;21.10.1985;haymana;gs
+playerid13;derya;22.10.1985;kalecik;gs
+playerid14;deniz;23.10.1985;kızılcahamam;gs
+playerid15;melo;24.10.1985;nallıhan;gs
+playerid16;hakan;25.10.1985;polatlı;gs
+playerid17;uğur;26.10.1985;şereflikoçhisar;gs
+playerid18;mazhar;27.10.1985;yenimahalle;gs
+playerid19;osman;28.10.1985;gölbaşı / ankara;gs
+playerid20;bayram;29.10.1985;keçiören;gs
+playerid21;emrah;30.10.1985;mamak;gs
+playerid22;cihat;31.10.1985;sincan;gs
+playerid23;faruk;01.11.1985;kazan;mlt
+playerid24;fulya;02.11.1985;akyurt;mlt
+playerid25;mehmet;03.11.1985;etimesgut;mlt
+playerid26;ergun;04.11.1985;evren;mlt
+playerid27;selim;05.11.1985;pursaklar;mlt
+playerid28;kadir;06.11.1985;akseki;mlt
+playerid29;isa;07.11.1985;alanya;mlt
+playerid30;eyup;08.11.1985;elmalı;mlt
+playerid31;islam;09.11.1985;finike;mlt
+playerid32;yavuz;10.11.1985;gazipaşa;mlt
+playerid33;selim;11.11.1985;gündoğmuş;mlt
+playerid34;yusuf;12.11.1985;kaş;ts
+playerid35;sinan;13.11.1985;korkuteli;ts
+playerid36;akgul;14.11.1985;kumluca;ts
+playerid37;abdullah;15.11.1985;manavgat;ts
+playerid38;akay;16.11.1985;serik;ts
+playerid39;nur;17.11.1985;demre;ts
+playerid40;muhammed;18.11.1985;İbradı;ts
+playerid41;fatih;19.11.1985;kemer / antalya;ts
+playerid42;tunali;20.11.1985;aksu / antalya;ts
+playerid43;furkan;21.11.1985;döşemealtı;ts
+playerid44;sinan;22.11.1985;kepez;ts
+playerid45;berkay;23.11.1985;konyaaltı;bjk
+playerid46;berke;24.11.1985;muratpaşa;bjk
+playerid47;berkecan;25.11.1985;ardanuç;bjk
+playerid48;bertuğ;26.11.1985;arhavi;bjk
+playerid49;beytur;27.11.1985;artvin merkez;bjk
+playerid50;bİlal;28.11.1985;borçka;bjk
+playerid51;bİrtan;29.11.1985;hopa;bjk
+playerid52;boğaçhan;30.11.1985;şavşat;bjk
+playerid53;bora;01.12.1985;yusufeli;bjk
+playerid54;buğra;02.12.1985;murgul;bjk
+playerid55;burak;03.12.1985;bozdoğan;bjk
+playerid56;burhan;04.12.1985;çine;fts
+playerid57;burkay;05.12.1985;germencik;fts
+playerid58;can;06.12.1985;karacasu;fts
+playerid59;canberk;07.12.1985;koçarlı;fts
+playerid60;caner;08.12.1985;kuşadası;fts
+playerid61;cem;09.12.1985;kuyucak;fts
+playerid62;cengİzhan;10.12.1985;nazilli;fts
+playerid63;cenk;11.12.1985;söke;fts
+playerid64;ceyhun;12.12.1985;sultanhisar;fts
+playerid65;cİhat;13.12.1985;yenipazar / aydın;fts
+playerid66;çağan;14.12.1985;buharkent;fts
+playerid67;çağatay;15.12.1985;İncirliova;lb
+playerid68;çağlar;16.12.1985;karpuzlu;lb
+playerid69;dağhan;17.12.1985;köşk;lb
+playerid70;denİz;18.12.1985;didim;lb
+playerid71;denİzalİ;19.12.1985;efeler;lb
+playerid72;denİzhan;20.12.1985;ayvalık;lb
+playerid73;dİcle;21.12.1985;balya;lb
+playerid74;doğa;22.12.1985;bandırma;lb
+playerid75;doğaç;23.12.1985;bigadiç;lb
+playerid76;doğuhan;24.12.1985;burhaniye;lb
+playerid77;doğukan;25.12.1985;dursunbey;lb
+playerid78;doruk;26.12.1985;edremit / balıkesir;gb
+playerid79;duhan;27.12.1985;erdek;gb
+playerid80;efe;28.12.1985;gönen / balıkesir;gb
+playerid81;ege;29.12.1985;havran;gb
+playerid82;egecan;30.12.1985;İvrindi;gb
+playerid83;egemen;31.12.1985;kepsut;gb
+playerid84;ekİn;01.01.1986;manyas;gb
+playerid85;emİn;02.01.1986;savaştepe;gb
+playerid86;emİr;03.01.1986;sındırgı;gb
+playerid87;emİrcan;04.01.1986;susurluk;gb
+playerid88;emİrhan;05.01.1986;marmara;gb
+playerid89;emre;06.01.1986;gömeç;po
+playerid90;emrecan;07.01.1986;altıeylül;po
+playerid91;enes;08.01.1986;karesi;po
+playerid92;engİn;09.01.1986;bilecik merkez;po
+playerid93;eray;10.01.1986;bozüyük;po
+playerid94;erdalcan;11.01.1986;gölpazarı;po
+playerid95;erdem;12.01.1986;osmaneli;po
+playerid96;erdİnç;13.01.1986;pazaryeri;po
+playerid97;eren;14.01.1986;söğüt;po
+playerid98;ergun;15.01.1986;yenipazar / bilecik;po
+playerid99;erhan;16.01.1986;İnhisar;po
+playerid100;erİm;17.01.1986;bingöl merkez;tp
+playerid101;erkam;18.01.1986;genç;tp
+playerid102;eser;19.01.1986;karlıova;tp
+playerid103;eyüpcan;20.01.1986;kiğı;tp
+playerid104;faruk;21.01.1986;solhan;tp
+playerid105;fatİh;22.01.1986;adaklı;tp
+playerid106;fehmİ;23.01.1986;yayladere;tp
+playerid107;ferhat;24.01.1986;yedisu;tp
+playerid108;fİkret;25.01.1986;adilcevaz;tp
+playerid109;furkan;26.01.1986;ahlat;tp
+playerid110;gökberk;27.01.1986;bitlis merkez;tp
+playerid111;gökhan;28.01.1986;hizan;bp
+playerid112;göktuğ;29.01.1986;mutki;bp
+playerid113;güney;30.01.1986;tatvan;bp
+playerid114;gürkan;31.01.1986;güroymak;bp
+playerid115;güven;01.02.1986;bolu merkez;bp
+playerid116;hakan;02.02.1986;gerede;bp
+playerid117;halİd;03.02.1986;göynük;bp
+playerid118;halİl;04.02.1986;kıbrıscık;bp
+playerid119;halİlİbrahİm;05.02.1986;mengen;bp
+playerid120;halİs;06.02.1986;mudurnu;bp
+playerid121;hamİt;07.02.1986;seben;bp
+playerid122;harun;08.02.1986;dörtdivan;brs
+playerid123;hasan;09.02.1986;yeniçağa;brs
+playerid124;haydar;10.02.1986;ağlasun;brs
+playerid125;hüseyİn;11.02.1986;bucak;brs
+playerid126;hüseyİncan;12.02.1986;burdur merkez;brs
+playerid127;ilgaz;13.02.1986;gölhisar;brs
+playerid128;ilgin;14.02.1986;tefenni;brs
+playerid129;İlker;15.02.1986;yeşilova;brs
+playerid130;İlyas;16.02.1986;karamanlı;brs
+playerid131;itir;17.02.1986;kemer / burdur;brs
+playerid132;İzzet;18.02.1986;altınyayla / burdur;brs
+playerid133;kaan;19.02.1986;çavdır;gza
+playerid134;kadİr;20.02.1986;çeltikçi;gza
+playerid135;kemal;21.02.1986;gemlik;gza
+playerid136;kerem;22.02.1986;İnegöl;gza
+playerid137;kerİm;23.02.1986;İznik;gza
+playerid138;kivanç;24.02.1986;karacabey;gza
+playerid139;kubİlay;25.02.1986;keles;gza
+playerid140;kutay;26.02.1986;mudanya;gza
+playerid141;levent;27.02.1986;mustafakemalpaşa;gza
+playerid142;mahmut;28.02.1986;orhaneli;gza
+playerid143;mehmet;01.03.1986;orhangazi;gza
+playerid144;mehmetcan;02.03.1986;yenişehir / bursa;kon
+playerid145;melİh;03.03.1986;büyükorhan;kon
+playerid146;melİhcan;04.03.1986;harmancık;kon
+playerid147;merİç;05.03.1986;nilüfer;kon
+playerid148;mert;06.03.1986;osmangazi;kon
+playerid149;mertay;07.03.1986;yıldırım;kon
+playerid150;metehan;08.03.1986;gürsu;kon
+playerid151;metİn;09.03.1986;kestel;kon
+playerid152;mİraç;10.03.1986;ayvacık;kon
+playerid153;muhammed;11.03.1986;bayramiç;kon
+playerid154;murat;12.03.1986;biga;kon
+playerid155;muratcan;13.03.1986;bozcaada;esk
+playerid156;mustafa;14.03.1986;çan;esk
+playerid157;nebİ;15.03.1986;çanakkale merkez;esk
+playerid158;necmettİn;16.03.1986;eceabat;esk
+playerid159;necmİ;17.03.1986;ezine;esk
+playerid160;nejat;18.03.1986;gelibolu;esk
+playerid161;nevzat;19.03.1986;gökçeada;esk
+playerid162;nİhatcan;20.03.1986;lapseki;esk
+playerid163;oğulcan;21.03.1986;çanakkale;esk
+playerid164;oğuz;22.03.1986;çankırı merkez;esk
+playerid165;oğuzhan;23.03.1986;çerkeş;esk
+playerid166;okan;24.03.1986;eldivan;kar
+playerid167;okay;25.03.1986;ilgaz;kar
+playerid168;oktay;26.03.1986;kurşunlu;kar
+playerid169;olcay;27.03.1986;orta;kar
+playerid170;onur;28.03.1986;şabanözü;kar
+playerid171;onurcan;29.03.1986;yapraklı;kar
+playerid172;onurhan;30.03.1986;atkaracalar;kar
+playerid173;orhan;31.03.1986;kızılırmak;kar
+playerid174;osman;01.04.1986;bayramören;kar
+playerid175;ozan;02.04.1986;korgun;kar
+playerid176;ömer;03.04.1986;alaca;kar
+playerid177;ömür;04.04.1986;çorum;blk
+playerid178;öner;05.04.1986;çorum merkez;blk
+playerid179;özgün;06.04.1986;İskilip;blk
+playerid180;özgür;07.04.1986;kargı;blk
+playerid181;raİf;08.04.1986;mecitözü;blk
+playerid182;ramazan;09.04.1986;ortaköy;blk
+playerid183;recep;10.04.1986;osmancık;blk
+playerid184;rutkay;11.04.1986;sungurlu;blk
+playerid185;safa;12.04.1986;boğazkale;blk
+playerid186;salİh;13.04.1986;uğurludağ;blk
+playerid187;samet;14.04.1986;dodurga;blk
+playerid188;samİ;15.04.1986;laçin;rze
+playerid189;tuna;16.04.1986;oğuzlar;rze
+playerid190;tunahan;17.04.1986;acıpayam;rze
+playerid191;tunga;18.04.1986;buldan;rze
+playerid192;ufukcan;19.04.1986;çal;rze
+playerid193;uğur;20.04.1986;çameli;rze
+playerid194;uğurcan;21.04.1986;çardak;rze
+playerid195;uğurkan;22.04.1986;çivril;rze
+playerid196;ulaş;23.04.1986;güney;rze
+playerid197;umut;24.04.1986;denizli;rze
+playerid198;umutcan;25.04.1986;sarayköy;rze
