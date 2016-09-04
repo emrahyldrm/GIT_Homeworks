@@ -1,0 +1,196 @@
+EMRAH YILDIRIM
+111044056
+HW07
+
+
+	1. int olan satýr numaralarýný tutmak için vector gibi davranan bir Ivector adýnda sýnýf yazýlmýþtýr.
+	   Vektörden fazla olarak eðer eklenecek olan sayýnýn var olup olmadýðýný kontrol eder ve varsa ekleme yapmaz.
+	   Ayrýca bulundurduðu exist ve sort fonskiyonlarý ile istenildiðinde sýralama  yapýlabilir ve ve herhangi bir
+	   integer deðerin var olup olmadýðý kontrol edilebilir.
+
+	2. Okunan ve indekslenen her bir kelimeyi tutmak için Word sýnýfý yazýmýþtýr. Sýnýfýn içinde kelimenin string hali 
+	   ve bulunduðu satýrlarý depo eden vir Ivector tipinde obje vardýr.
+	   big tree ye gerek olmadýðý için yazýlmamýþtýr.
+	   Satýr eklemesi yapan, girilen satýrda var olup olmadýðýný kontrol eden ve kaç satýrda bulunduðunu return eden fonksiyonlara sahiptir.
+
+	3. Word objelerini tutan bir WordVector adýnda sýnýf tanýmý yapýlmýþtýr. Bu sýnýf Ivector sýnýfý gibi ayný elemanlarý eklemez.
+	   Member fonskiyonlarý ve operatörleri ile tam ve kýsmi kelime aramasý yapýlabilir, bulunduðu yer sorulabilir, sýraya konulabilir.
+	   
+	4. Indekslenmiþ kelimeleri tutan sýnýfýn adý DocumentIndex'tir. Bu sýnýfta neredeyse bütün iþ constructorda yapýlýr.
+	   Dosya okumasuý kelimelerin ayrýþtýrýlýp satýr numaralarý esas alýnarak dizilmesi constructor içinde yardýmcý fonskiyonlarla yapýlýr.
+	   indeks operatörleri ile kelime girilip satýr, satýr girilip kelimeler return edilebilir.
+	   Ayný zamanda return edilen kelimenin diðer bulunduðu satýrlarda gösterilir.
+	   >> ile dosyadan ve konsoldan okuma yapýlabilir. 
+	   << ile dosyaya ve konsola yazdýrma yapýlabilir.
+	   + ve += ile toplama iþlemleri yapýlabilir.
+	   toLowerAll ve cleanPunct fonksiyonlarý ile tüm harfleri küçük yapar ve noktalam iþaretlerini temizler.
+
+
+	   
+	   
+	   DINAMIK HAFIZA KULLANILMIÞ VEKTOR VB SINIFLARIN KULLANIMINDAN KAÇINILMIÞTIR.
+	   
+	   
+namespace HW07
+{
+
+	class Ivector
+	{
+	public:
+		Ivector();
+		Ivector(int wcapacity);
+		Ivector(const Ivector& other);
+		~Ivector();
+
+		int size() const	{ return sizeV; }
+		int capacity() const	{ return capacityV; }
+
+		bool exist(int num)	const;
+
+		bool push_back(int num);
+		bool pop_back(void);
+		bool erase(int index);
+		//belirli sayý silme fonksiyonu ve index return eden fonksiyon
+
+		void sort(void);
+		Ivector& operator=(const Ivector& other);
+		Ivector operator+(const Ivector& other);
+		bool operator ==(const Ivector& other) const;
+		bool operator !=(const Ivector& other) const;
+		int operator [](int index) const { return nums[index]; }
+		int& operator [](int index)	{ return nums[index]; }
+		friend ostream& operator << (ostream& out, const Ivector& vector);
+
+
+	private:
+		int *nums;
+		int sizeV, capacityV;
+	};
+
+	ostream& operator << (ostream& out, const Ivector& vector);
+
+}
+
+-----------------------------------------------------------------------------------------------------------------
+
+namespace HW07
+{
+	class Word
+	{
+	public:
+		Word() {}
+		Word(const string& other, int index) { tWord = other; lines.push_back(index); }
+		Word(const string& other){ tWord = other; }
+		
+		// big tree does not necessary
+
+		const string& getWord(void) const { return tWord; }
+		const Ivector& getLines(void) const { return lines; }
+
+		void setWord(const string& other, int index) { tWord = other; lines.push_back(index); }
+		void addLine(int line) { lines.push_back(line); }
+		bool onLine(int index) { return lines.exist(index); }
+		int lineNum()	const  { return lines.size(); }
+		
+		Word operator +(const Word& other);
+		
+		bool operator ==(const Word& other)const;
+		bool operator !=(const Word& other)const; 
+		bool operator >(const Word& other) const { return tWord > other.tWord; }
+		bool operator <(const Word& other) const { return tWord < other.tWord; }
+		friend 	ostream& operator << (ostream& out, const Word& word);
+	private:
+		string tWord;
+		Ivector lines;
+
+	};
+
+
+	ostream& operator << (ostream& out, const Word& word);
+}
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+namespace HW07
+{
+	class WordVector
+	{
+
+	public:
+		WordVector();
+		WordVector(int capacity);
+		WordVector(const WordVector& other);
+		~WordVector();
+
+		int size() const	{ return sizeV; }
+		int capacity() const	{ return capacityV; }
+
+		bool exist(const Word& word) const;
+		bool allexist(const Word& word) const;
+		int findLoc(const Word& word) const;
+		bool push_back(const Word& word);
+		bool pop_back(void);
+		bool erase(int index);
+
+		WordVector operator +(const WordVector& other);
+		WordVector& operator=(const WordVector& other);
+		bool operator ==(const WordVector& other) const;
+		bool operator !=(const WordVector& other) const;
+		Word operator [](int index) const { return words[index]; }
+		Word& operator [](int index)	{ return words[index]; }
+
+		void sort(void);
+		friend ostream& operator <<(ostream& out, const WordVector& vector);
+
+
+	private:
+		Word *words;
+		int sizeV, capacityV;
+	};
+
+	ostream& operator <<(ostream& out, const WordVector& vector);
+}
+
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+
+namespace HW07
+{
+	class DocumentIndex
+	{
+	public:
+		DocumentIndex() {}
+		DocumentIndex(string& fileName);
+		DocumentIndex(const char* fileName);
+
+		/***BIG TREE DOES NOT NECESSARY*****/
+	
+		const Ivector& operator[] (const string& word);
+		const WordVector operator[] (int index);
+	
+		DocumentIndex operator +(const DocumentIndex& other);
+		void operator +=(const DocumentIndex& other);
+		friend ostream& operator <<(ostream& out, const DocumentIndex& document);
+		friend istream& operator >>(istream& inp, DocumentIndex& document);
+
+	private:
+		void toLowerAll(string& word);
+		void cleanPunct(string& word);
+		WordVector allWords;
+	};
+
+
+	ostream& operator <<(ostream& out, const DocumentIndex& document);
+	istream& operator >>(istream& inp, DocumentIndex& document);
+}
+
+
+
+
+
+EMRAH YILDIRIM
+111044056
+HW07

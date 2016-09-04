@@ -1,0 +1,204 @@
+PARTIALLY FILLED ARRAY WITH BACKUP
+
+This example presents a derived class of the 
+partially filled array class PFArrayD that we presented
+in Chapter 10 (Display 10.10). For reference 
+we repeat the header file for the base class
+PFArrayD in Display 14.8. We repeat as much 
+as we will discuss of the implementation for the
+base class PFArrayD in Display 14.9. Note that 
+we have made one important change to the definition
+presented in Chapter 10. We have changed the
+member variables from private to protected.
+This will allow member functions in the derived 
+class to access the member variables by name.
+We will define a derived class called PFArrayDBak 
+using PFArrayD as a base class. An object of
+the derived class PFArrayDBak will have all the member
+ functions of the base class PFArrayD
+and can be used just like an object of the class PFArrayD,
+ but an object of the class PFArrayDBak
+will have the following added feature: There is a member
+ function called backup that can
+make a backup copy of all the data in the partially filled 
+array, and at any later time the programmer
+can use the member function restore to restore 
+the partially filled array to the state it
+was in just before the last invocation of backup.
+If the meaning of these added member functions
+is not clear, you should peek ahead to the sample
+ demonstration program shown in Display 14.12.
+The interface for the derived class PFArrayDBak
+ is shown in Display 14.10. The class PFArrayDBak
+adds two member variables to hold a backed-up copy
+ of the partially filled array: a member
+variable b of type double* that will point to a dynamic
+ array with the backup version of the
+(inherited) working array, and an int member variable named
+usedB to indicate how much of
+the backed-up array b is filled with data. Since there 
+is no way to change the capacity of a
+PFArrayD (or a PFArrayDBak), there is no need to back up 
+the capacity value. All the basic
+functions for handling a partially filled array are 
+inherited unchanged from the base class
+PFArrayD. These inherited functions manipulate
+the inherited array a and the inherited int
+variable used just as they did in the base class PFArrayD.
+The implementation of the new member functions for the 
+class PFArrayDBak is shown in Display
+14.11. The constructors of the derived class PFArrayDBak
+ rely on the constructors of the base class
+to set up the regular partially filled array (inherited 
+member variables a, used, and capacity).
+Each constructor also creates a new dynamic array of the
+ same size as the array a. This second
+array is the array b used for backing up the data in a.
+
+IS A VERSUS HAS A
+Early in this chapter we defined a derived class 
+called HourlyEmployee using the class
+Employee as the base class. In such a case an object 
+of the derived class HourlyEmployee is
+also of type Employee. Stated more simply, an 
+HourlyEmployee is an Employee. This is an
+example of the is a relationship between classes.
+It is one way to make a more complex class from a simpler class.
+Another way to make a more complex class from a 
+simpler class is known as the has a relationship.
+For example, if you have a class Date that records 
+a date, then you might add a date of
+employment to the Employee class by adding a member 
+variable of type Date to the Employee
+class. In this case we say an Employee has a Date.
+As another example, if we have an appopriately
+named class to simulate a jet engine and we are 
+defining a class to simulate a passenger airplane,
+then we can give the PassengerAirPlane class one 
+or more member variables of type
+JetEngine. In this case we say that a 
+PassengerAirPlane has a JetEngine.
+In most situations you can make your code work
+with either an is a relationship or a has a
+relationship. It seems silly (and it is silly) to
+ make the PassengerAirPlane class a derived class
+of the JetEngine class, but it can be done and can
+ be made to work (perhaps with difficulty).
+Fortunately, the best programming technique is to
+ simply follow what sounds most natural in
+English. It makes more sense to say A passenger
+ airplane has a jet engine than it does to say A
+passenger airplane is a jet engine. So, it makes 
+better programming sense to have JetEngine
+as a member variable of a PassengerAirPlane class. 
+It makes little sense to make the PassengerAirPlane
+class a derived class of the JetEngine class.
+
+MULTIPLE INHERITANCE
+It is possible for a derived class to have more
+ than one base class. The syntax is very simple:
+All the base classes are listed, separated by 
+commas. However, the possibilities for
+ambiguity are numerous. What if two base classes
+ have a function with the same name
+and parameter types? Which is inherited? What 
+if two base classes have a member variable
+with the same name? All these questions can be
+answered, but these and other
+problems make multiple inheritance a very dangerous
+ business. Some authorities consider
+multiple inheritance so dangerous that it should not
+ be used at all. That may or
+may not be too extreme a position, but it is
+ true that you should not seriously attempt
+multiple inheritance until you are a very
+ experienced C++ programmer. At that point,
+you will realize that you can almost always
+ avoid multiple inheritance by using some
+less dangerous technique. We will not 
+discuss multiple inheritance in this book, but
+leave it for more advanced references.
+
+
+LATE BINDING
+Virtual functions are best explained by an example.
+Suppose you are designing
+software for a graphics package 
+that has classes for several kinds of figures,
+such as rectangles, circles, ovals, and 
+so forth. Each figure might be an object
+of a different class. For example, the
+Rectangle
+class might have member variables
+for a height, width, and center point, while the
+Circle
+class might have
+member variables for a center point and a radius. In a well-designed programming
+project, all of these classes would probably be descendants of a single
+parent class called, for example,
+Now, suppose you want a function to
+draw a figure on the screen. To draw a circle, you need different instructions
+from those you need to draw a rectangle. So, each class needs to have a different
+function to draw its kind of figure. However, because the functions belong.
+
+VIRTUAL FUNCTION
+A virtual function is indicated by including the
+ modifier virtual in the member function declaration
+(which is given in the definition of the class).
+If a function is virtual and a new definition of 
+the function is given in a derived class, then for any
+object of the derived class, that object will always 
+use the definition of the virtual function that
+was given in the derived class, even if the virtual 
+function is used indirectly by being invoked in
+the definition of an inherited function. This method of deciding which definition of a virtual function
+to use is known as late binding.
+
+
+OMITTING THE DEFINITION OF A VIRTUAL MEMBER FUNCTION
+It is wise to develop incrementally. This means code
+a little, then test a little, then code a little
+more and test a little more, and so forth. However,
+if you try to compile classes with virtual
+member functions but do not implement each member,
+you may run into some very-hard-tounderstand
+error messages, even if you do not call the undefined
+member functions!
+If any virtual member functions are not implemented
+before compiling, the compilation fails with
+error messages similar to this:
+Undefined reference to Class_Name virtual table.
+Even if there is no derived class and there is 
+only one virtual member function, but that function
+does not have a definition, this kind of message 
+still occurs.
+What makes the error messages very hard to decipher is that without definitions for the functions
+declared virtual, there will be further error messages complaining about an undefined reference
+to default constructors, even if these constructors
+really are already defined.
+Of course, you may use some trivial definition for a
+ virtual function until you are ready to define
+the real version of the function.
+This caution does not apply to pure virtual functions,
+ which we discuss in the next section. As you
+will see, pure virtual functions are not supposed to have a definition.
+
+
+THE SLICING PROBLEM
+Although it is legal to assign a derived class object to a base class variable, assigning a derived
+class object to a base class object slices off data. Any data members in the derived class object
+that are not also in the base class will be lost in the assignment, and any member functions that
+are not defined in the base class are similarly unavailable to the resulting base class object.
+For example, if Dog is a derived class of Pet, then the following is legal:
+
+However, vpet cannot be a calling object for a member function from Dog unless the function is
+also a member function of Pet, and all the member variables of vdog that are not inherited from
+the class Pet are lost. This is the slicing problem.
+Note that simply making a member function virtual does not defeat the slicing problem. Note the
+following code from Display 15.7:
+
+Although the object in vdog is of type Dog, when vdog is assigned to the variable vpet (of type
+Pet) it becomes an object of type Pet. So, vpet.print( ) invokes the version of print( )
+defined in Pet, not the version defined in Dog. This happens despite the fact that print( ) is
+virtual. In order to defeat the slicing problem, the function must be virtual and you must use
+pointers and dynamic variables

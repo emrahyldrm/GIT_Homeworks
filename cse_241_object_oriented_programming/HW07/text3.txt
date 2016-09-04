@@ -1,0 +1,237 @@
+PROGRAMMING PROJECTS
+
+1. A metric ton is 35,273.92 ounces. Write a 
+program that will read the weight of a package of
+breakfast cereal in ounces and output the 
+weight in metric tons as well as the number of
+boxes needed to yield one metric ton of cereal.
+2. A government research lab has concluded 
+that an artificial sweetener commonly used in
+diet soda will cause death in laboratory mice.
+ A friend of yours is desperate to lose weight
+but cannot give up soda. Your friend wants to 
+know how much diet soda it is possible to
+drink without dying as a result. Write a program
+ to supply the answer. The input to the
+program is the amount of artificial sweetener 
+needed to kill a mouse, the weight of the
+mouse, and the weight of the dieter. To ensure 
+the safety of your friend, be sure the program
+requests the weight at which the dieter will 
+stop dieting, rather than the dieter's current
+weight. Assume that diet soda contains one-tenth 
+of 1% artificial sweetener. Use a
+variable declaration with the modifier const 
+to give a name to this fraction. You may want
+to express the percentage as the double value 0.001.
+3. Workers at a particular company have won a 7.6% 
+pay increase retroactive for six months.
+Write a program that takes an employee's previous 
+annual salary as input and outputs the
+amount of retroactive pay due the employee, the 
+new annual salary, and the new monthly
+salary. Use a variable declaration with the 
+modifier const to express the pay increase.
+4. Negotiating a consumer loan is not always 
+straightforward. One form of loan is the discount
+installment loan, which works as follows. 
+Suppose a loan has a face value of $1,000,
+the interest rate is 15%, and the duration is 18 months. 
+The interest is computed by multiplying
+the face value of $1,000 by 0.15, yielding $150. 
+That figure is then multiplied by
+the loan period of 1.5 years to yield $225 as the 
+total interest owed. That amount is immediately
+deducted from the face value, leaving the consumer 
+with only $775. Repayment is
+made in equal monthly installments based on the 
+face value. So the monthly loan payment
+will be $1,000 divided by 18, which is $55.56.
+This method of calculation may not be too
+bad if the consumer needs $775 dollars, but the 
+calculation is a bit more complicated if the
+consumer needs $1,000. Write a program that will 
+take three inputs: the amount the consumer
+needs to receive, the interest rate, and the 
+duration of the loan in months. The program
+should then calculate the face value required 
+in order for the consumer to receive the
+amount needed. It should also calculate the monthly payment.
+5. Write a program that determines whether a 
+meeting room is in violation of fire law regulations
+regarding the maximum room capacity. 
+The program will read in the maximum room
+capacity and the number of people to attend the 
+meeting. If the number of people is less
+than or equal to the maximum room capacity, the
+ program announces that it is legal to
+hold the meeting and tells how many additional 
+people may legally attend. If the number
+of people exceeds the maximum room capacity, the 
+program announces that the meeting
+cannot be held as planned due to fire regulations 
+and tells how many people must be
+excluded in order to meet the fire regulations.
+6. An employee is paid at a rate of $16.78 per 
+hour for regular hours worked in a week. Any
+hours over that are paid at the overtime rate 
+of one and one-half times that. From the
+worker's gross pay, 6% is withheld for Social Security tax, 
+14% is withheld for federal
+42 C++ Basics
+income tax, 5% is withheld for state income tax, 
+and $10 per week is withheld for union
+dues. If the worker has three or more dependents, 
+then an additional $35 is withheld to
+cover the extra cost of health insurance beyond 
+what the employer pays. Write a program
+that will read in the number of hours worked in a week and the number of dependents as
+input and that will then output the worker's gross pay, each withholding amount, and the
+net take-home pay for the week.
+
+
+const PARAMETER MODIFIER
+If you place the modifier const before the type
+ for a call-by-reference parameter, the parameter
+is called a constant parameter. When you add the
+ const you are telling the compiler that this
+parameter should not be changed. If you make a 
+mistake in your definition of the function so that
+it does change the constant parameter, then the 
+compiler will give an error message. Parameters
+of a class type that are not changed by the function 
+ordinarily should be constant call-by-reference
+parameters rather than call-by-value parameters.
+If a member function does not change the value of 
+its calling object, then you can mark the function
+by adding the const modifier to the function declaration. 
+If you make a mistake in your definition
+of the function so that it does change the calling 
+object and the function is marked with
+const, the computer will give an error message. 
+The const is placed at the end of the function
+declaration, just before the final semicolon. 
+The heading of the function definition should also
+have a const so that it matches the function declaration.
+
+
+INLINE FUNCTIONS
+You can give the complete definition of a 
+member function within the definition of its
+class. Such definitions are called inline 
+function definitions. These inline definitions
+are typically used for very short function 
+definitions. Display 7.5 shows the class in
+Display 7.4 rewritten with a number of inline 
+functions.
+Inline functions are more than just a notational 
+variant of the kind of member function
+definitions we have already seen. 
+The compiler treats an inline function in a special
+way. The code for an inline function declaration 
+is inserted at each location where the
+function is invoked. This saves the overhead of a function invocation.
+All other things being equal, an inline function 
+should be more efficient and hence
+presumably preferable to a function defined in
+ the usual way. However, all other things
+are seldom, if ever, equal. Inline functions 
+have the disadvantage of mixing the interface
+and implementation of a class and so go against 
+the principle of encapsulation. And, so
+the usual arguments go back and forth.
+It is generally believed that only very short 
+function definitions should be defined
+inline. For long function definitions, the inline
+ version can actually be less efficient,
+because a large piece of code is repeated frequently. 
+Beyond that general rule, you will
+have to decide for yourself whether to use inline functions.
+Any function can be defined to be an inline function. 
+To define a nonmember function
+to be inline, just place the keyword inline before the function declaration and
+function definition. We will not use, or further discuss, inline nonmember functions in
+this book.
+
+VECTOR ASSIGNMENT IS WELL BEHAVED
+The assignment operator with vectors does an element-by-element assignment to the vector on
+the left-hand side of the assignment operator (increasing capacity if needed and resetting the
+size of the vector on the left-hand side of the assignment operator). Thus, provided the assignment
+operator on the base type makes an independent copy of an element of the base type, then
+the assignment operator on the vector will make an independent copy, not an alias, of the vector
+on the right-hand side of the assignment operator.
+Note that for the assignment operator to produce a totally independent copy of the vector on the
+right-hand side of the assignment operator requires that the assignment operator on the base
+type make completely independent copies. The assignment operator on a vector is only as good
+(or bad) as the assignment operator on its base type.
+
+
+MEMBER OPERATORS AND AUTOMATIC TYPE CONVERSION
+When you overload a binary operator as a member operator, the two arguments are no longer
+symmetric. One is a calling object, and only the second argument is a true argument. This is not
+only unaesthetic but also has a very practical shortcoming. Any automatic type conversion will
+only apply to the second argument. So, for example, as we noted in the previous subsection, the
+following would be legal:
+Money baseAmount(100, 60), fullAmount;
+fullAmount = baseAmount + 25;
+This is because Money has a constructor with one argument of type int, and so the value 25 will
+be considered an int value that is automatically converted to a value of type Money.
+However, if you overload + as a member operator (as in Display 8.2), then you cannot reverse the
+two arguments to +. The following is illegal:
+fullAmount = 25 + baseAmount;
+because 25 cannot be a calling object. Conversion of int values to type Money works for arguments
+but not for calling objects.
+On the other hand, if you overload + as a nonmember (as in Display 8.1), then the following is perfectly
+legal:
+fullAmount = 25 + baseAmount;
+This is the biggest advantage of overloading an operator as a nonmember.
+Overloading an operator as a nonmember gives you automatic type conversion of all arguments.
+Overloading an operator as a member gives you the efficiency of bypassing accessor and mutator
+functions and directly accessing member variables. There is a way to overload an operator (and
+certain functions) that offers both of these advantages. It is called overloading as a friend function
+and is our next topic.
+
+
+FRIEND FUNCTIONS
+If your class has a full set of accessor and mutator functions, you can use the accessor
+and mutator functions to define nonmember overloaded operators (as in Display 8.1 as
+opposed to Display 8.2). However, although this may give you access to the private
+member variables, it may not give you efficient access to them. Look again at the definition
+of the overloaded addition operator + given in Display 8.1. Rather than just
+reading four member variables, it must incur the overhead of two invocations of get-
+Cents and two invocations of getDollars. This adds a bit of inefficiency and also can
+make the code harder to understand. The alternative of overloading + as a member gets
+around this problem at the price of losing automatic type conversion of the first operand.
+Overloading the + operator as a friend will allow us to both directly access member
+variables and have automatic type conversion for all operands.
+A friend function of a class is not a member function of the class, but it has access
+to the private members of that class (to both private member variables and private
+member functions) just as a member function does. To make a function a friend function,
+you must name it as a friend in the class definition. For example, in Display 8.3
+we have rewritten the definition of the class Money yet another time. This time we have
+overloaded the operators as friends. You make an operator or function a friend of a class
+by listing the operator or function declaration in the definition of the class and placing
+the keyword friend in front of the operator or function declaration.
+A friend operator or friend function has its declaration listed in the class definition,
+just as you would list the declaration of a member function, except that you precede the
+declaration by the keyword friend. However, a friend is not a member function; rather,
+it really is an ordinary function with extraordinary access to the data members of the
+class. The friend is defined exactly like the ordinary function it is. In particular, the operator
+definitions shown in Display 8.3 do not include the qualifier Money:: in the function
+heading. Also, you do not use the keyword friend in the function definition (only
+in the function declaration). The friend operators in Display 8.3 are invoked just like
+the nonfriend, nonmember operators in Display 8.1, and they have automatic type conversion
+of all arguments just like the nonfriend, nonmember operators in Display 8.1.
+The most common kinds of friend functions are overloaded operators. However,
+any kind of function can be made a friend function.
+A function (or overloaded operator) can be a friend of more than one class. To make
+it a friend of multiple classes, just give the declaration of the friend function in each
+class for which you want it to be a friend.
+Many experts consider friend functions (and operators) to be in some sense not
+pure. They feel that in the true spirit of object-oriented programming all operators
+and functions should be member functions. On the other hand, overloading operators
+as friends provides the pragmatic advantage of automatic type conversion in all arguments,
+and since the operator declaration is inside the class definitions, it provides at
+least a bit more encapsulation than nonmember, nonfriend operators. We have shown
+you three ways to overload operators: as nonmember nonfriends, as members, and as
+friends. You can decide for yourself which technique you prefer.

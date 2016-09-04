@@ -1,0 +1,202 @@
+UNINITIALIZED VARIABLES
+
+A variable has no meaningful value until a program gives it one.
+For example, if the variable minimumNumber
+has not been given a value either as the left-hand 
+side of an assignment statement
+or by some other means (such as being given an 
+input value with a cin statement), then the following
+is an error:
+desiredNumber = minimumNumber + 10;
+This is because minimumNumber has no 
+meaningful value, and so the entire expression on the
+right-hand side of the equal sign has no meaningful
+value. A variable like minimumNumber that
+has not been given a value is said to be 
+uninitialized. This situation is, in fact, 
+worse than it would
+be if minimumNumber had no value at all. 
+An uninitialized variable, like minimumNumber, will
+simply have some garbage value. The value of an uninitialized 
+variable is determined by whatever
+pattern of zeros and ones was left in its memory location by 
+the last program that used that
+portion of memory.
+One way to avoid an uninitialized variable is to initialize 
+variables at the same time they are
+declared. This can be done by adding an equal sign and a value, as follows:
+
+This both declares minimumNumber to be a variable of type 
+int and sets the value of the variable
+minimumNumber equal to 3. You can use a more complicated 
+expression involving operations
+such as addition or multiplication when you initialize a
+variable inside the declaration in this way.
+As another example, the following declares three 
+variables and initializes two of them:
+
+C++ allows an alternative notation for initializing variables when they are declared. This alternative
+notation is illustrated by the following, which is equivalent to the preceding declaration:
+
+ASSIGNMENT COMPATIBILITY
+
+As a general rule, you cannot store a value of one type in a variable of another type. For
+example, most compilers will object to the following:
+int intVariable;
+
+The problem is a type mismatch. The constant 
+2.99 is of type double, and the variable
+intVariable is of type int. Unfortunately, not all compilers will react the same way to
+the above assignment statement. Some will 
+issue an error message, some will give only a
+warning message, and some compilers will not
+ object at all. Even if the compiler does
+allow you to use the above assignment, it 
+will give intVariable the int value 2, not the
+value 3. Since you cannot count on your compiler accepting the above assignment, you
+should not assign a double value to a variable of type int.
+
+Even if the compiler will allow you to mix
+ types in an assignment statement, in
+most cases you should not. Doing so makes your program less portable, and it can be
+confusing.
+There are some special cases in which it is
+ permitted to assign a value of one type to
+a variable of another type. It is acceptable to assign a value of an integer type, such as
+int, to a variable of a floating-point type,
+ such as type double. For example, the following
+is both legal and acceptable style:
+double doubleVariable;
+The above will set the value of the variable
+ named doubleVariable equal to 2.0.
+Although it is usually a bad idea to do so,
+ you can store an int value such as 65 in a
+variable of type char and you can store a 
+letter such as Z in a variable of type int. For
+many purposes, the C language considers characters to be small integers, and perhaps
+unfortunately, C++ inherited this from C. 
+The reason for allowing this is that variables
+of type char consume less memory than variables
+ of type int; thus, doing arithmetic
+with variables of type char can save some 
+memory. However, it is clearer to use the type
+int when you are dealing with integers and to use the type char when you are dealing
+with characters.
+The general rule is that you cannot place
+ a value of one type in a variable of another
+type-though it may seem that there are more exceptions to the rule than there are
+cases that follow the rule. Even if the 
+compiler does not enforce this rule very strictly, it
+is a good rule to follow. Placing data of one
+ type in a variable of another type can cause
+problems because the value must be changed to a value of the appropriate type and that
+value may not be what you would expect.
+Values of type bool can be assigned to 
+variables of an integer type (short, int,
+long), and integers can be assigned to 
+variables of type bool. However, it is poor style
+to do this. For completeness and to help 
+you read other peoples code, here are the
+details: When assigned to a variable of type
+ bool, any nonzero integer will be stored as
+the value true. Zero will be stored as the 
+value false. When assigning a bool value to
+an integer variable, true will be stored as 1, and false will be stored as 0.
+
+DIVISION WITH WHOLE NUMBERS
+When you use the division operator / on two integers,
+ the result is an integer. This can be a problem
+if you expect a fraction. Moreover, the problem 
+can easily go unnoticed, resulting in a program
+that looks fine but is producing incorrect output
+ without you even being aware of the
+problem. For example, suppose you are a landscape
+ architect who charges $5,000 per mile to
+landscape a highway, and suppose you know the length of the highway you are working on in
+feet. The price you charge can easily be calculated by the following C++ statement:
+totalPrice = 5000 * (feet/5280.0);
+This works because there are 5,280 feet in a mile.
+ If the stretch of highway you are landscaping is
+15,000 feet long, this formula will tell you that the total price is
+5000 * (15000/5280.0)
+Your C++ program obtains the final value as follows:
+ 15000/5280.0 is computed as 2.84. Then
+the program multiplies 5000 by 2.84 to produce the value 14200.00. With the aid of your C++
+program, you know that you should charge $14,200 for the project.
+Now suppose the variable feet is of type int, and you forget to put in the decimal point and the
+zero, so that the assignment statement in your program reads
+totalPrice = 5000 * (feet/5280);
+It still looks fine, but will cause serious problems. 
+If you use this second form of the assignment
+statement, you are dividing two values of type int, 
+so the result of the division feet/5280 is
+15000/5280, which is the int value 2 (instead of 
+the value 2.84 that you think you are getting).
+The value assigned to totalPrice is thus 5000*2, or
+ 10000.00. If you forget the decimal point,
+you will charge $10,000. However, as we have already
+ seen, the correct value is $14,200. A missing
+decimal point has cost you $4,200. Note that this 
+will be true whether the type of totalPrice is
+int or double; the damage is done before the value is assigned to totalPrice.
+
+INTEGER VALUES CAN BE USED AS BOOLEAN VALUES
+C++ sometimes uses integers as if they were Boolean 
+values and bool values as if they were integers.
+In particular, C++ converts the integer 1 to true 
+and converts the integer 0 to false, and
+vice versa. The situation is even a bit more complicated
+ than simply using 1 for true and 0 for
+false. The compiler will treat any nonzero number as
+ if it were the value true and will treat 0 as
+if it were the value false. As long as you make 
+no mistakes in writing Boolean expressions, this
+conversion causes no problems. However, when you
+ are debugging, it might help to know that
+the compiler is happy to combine integers using 
+the Boolean operators &&, ||, and !.
+For example, suppose you want a Boolean expression
+ that is true provided that time has not yet
+run out (in some game or process). You might use the following:
+!time > limit
+This sounds right if you read it out loud: not time greater than limit. The Boolean expression
+is wrong, however, and unfortunately, the compiler
+ will not give you an error message. The compiler
+will apply the precedence rules from Display 2.3 and interpret your Boolean expression as
+the following:
+(!time) > limit
+This looks like nonsense, and intuitively it is nonsense.
+ If the value of time is, for example, 36,
+what could possibly be the meaning of (!time)? 
+After all, that is equivalent to not 36. But in
+C++, any nonzero integer converts to true and 0
+ is converted to false. Thus, !36 is interpreted
+as not true and so it evaluates to false, which is
+ in turn converted back to 0 because we are
+comparing to an int.
+What we want as the value of this Boolean expression 
+and what C++ gives us are not the same. If
+time has a value of 36 and limit has a value of 60, 
+you want the above displayed Boolean
+expression to evaluate to true (because it is not 
+true that time > limit). Unfortunately, the
+Boolean expression instead evaluates as follows: 
+(!time) evaluates to false, which is converted
+to 0, so the entire Boolean expression is equivalent to
+0 > limit
+That in turn is equivalent to 0 > 60, because 60 is the value of limit, and that evaluates to
+false. Thus, the above logical expression evaluates to false, when you want it to evaluate to
+true.
+There are two ways to correct this problem. 
+One way is to use the ! operator correctly. When using
+the operator !, be sure to include parentheses around the argument.
+
+NESTED STATEMENTS
+As you have seen, if-else statements and if statements contain smaller statements
+within them. Thus far we have used compound statements and simple statements such
+as assignment statements as these smaller substatements, but there are other possibilities.
+In fact, any statement at all can be used as a subpart of an if-else statement or of
+other statements that have one or more statements within them.
+When nesting statements, you normally indent each level of nested substatements,
+al	gh there are some special situations (such as a multiway if-else branch) where
+this rule is not followed.

@@ -1,0 +1,760 @@
+1010 : 5 
+
+1410 : 32 
+
+1411 : 50 
+
+1412 : 30 
+
+148 : 7 
+
+149 : 9 
+
+157 : 198 
+
+about : 176 
+
+access : 14 
+
+add : 70 
+
+added : 21 28 
+
+adding : 71 
+
+adds : 33 
+
+advanced : 120 
+
+ahead : 29 
+
+airplane : 76 90 91 
+
+all : 17 23 42 100 106 111 137 195 
+
+allow : 13 
+
+almost : 116 
+
+already : 178 
+
+also : 54 63 190 195 
+
+although : 188 200 
+
+always : 116 150 
+
+ambiguity : 102 
+
+and : 19 24 37 46 53 75 83 85 104 107 128 133 136 148 161 171 190 195 203 204 
+
+another : 67 74 
+
+answered : 107 
+
+any : 24 149 167 189 190 
+
+apply : 182 
+
+appopriately : 74 
+
+are : 43 75 100 102 114 124 125 167 178 180 184 190 191 195 196 
+
+array : 1 4 24 26 34 36 37 39 43 46 52 54 55 56 
+
+assign : 188 
+
+assigned : 200 
+
+assigning : 188 
+
+assignment : 190 
+
+attempt : 113 
+
+authorities : 109 
+
+avoid : 117 
+
+back : 41 
+
+backedup : 33 39 
+
+backing : 56 
+
+backup : 1 22 23 27 36 
+
+base : 6 9 16 18 44 47 51 61 99 100 102 105 188 189 190 191 
+
+basic : 42 
+
+because : 142 
+
+becomes : 201 
+
+before : 27 168 
+
+being : 153 
+
+belong : 142 
+
+best : 87 124 
+
+better : 92 
+
+between : 65 
+
+binding : 123 155 
+
+book : 119 
+
+business : 109 
+
+but : 20 85 107 112 119 163 172 
+
+call : 165 
+
+called : 15 22 60 138 
+
+calling : 194 
+
+can : 19 22 25 77 81 85 106 116 
+
+cannot : 194 
+
+capacity : 40 42 53 
+
+case : 61 73 79 
+
+caution : 182 
+
+center : 133 136 
+
+change : 10 40 
+
+changed : 11 
+
+chapter : 5 11 59 
+
+circle : 134 140 
+
+circles : 128 
+
+class : 3 4 6 9 14 15 16 17 18 19 20 31 32 44 47 49 50 51 59 60 61 62 66 67 68 69 71 73 75 76 77 84 85 93 95 98 99 130 132 135 138 141 147 149 150 152 171 188 189 190 191 192 196 
+
+classes : 65 100 102 105 127 137 162 
+
+classname : 170 
+
+clear : 29 
+
+code : 81 159 160 198 
+
+commas : 101 
+
+compilation : 168 
+
+compile : 162 
+
+compiling : 168 
+
+complaining : 176 
+
+complex : 66 67 
+
+consider : 109 
+
+constructor : 54 
+
+constructors : 50 51 177 
+
+copy : 23 33 
+
+course : 179 
+
+creates : 54 
+
+dangerous : 108 110 118 
+
+data : 23 39 56 189 
+
+date : 69 70 72 73 
+
+deciding : 154 
+
+decipher : 175 
+
+declaration : 146 
+
+declared : 176 
+
+default : 177 
+
+defeat : 197 203 
+
+define : 15 180 
+
+defined : 59 178 191 202 
+
+defining : 76 
+
+definition : 10 147 148 151 154 158 173 179 184 
+
+definitions : 175 
+
+demonstration : 30 
+
+derived : 3 13 15 17 31 50 59 62 84 95 98 149 150 152 171 188 189 192 
+
+descendants : 137 
+
+designing : 125 
+
+despite : 202 
+
+develop : 159 
+
+did : 47 
+
+different : 130 140 141 
+
+difficulty : 86 
+
+discuss : 8 119 183 
+
+display : 5 7 9 30 32 49 198 
+
+does : 90 173 182 197 
+
+dog : 192 194 200 202 
+
+done : 85 
+
+double : 35 
+
+draw : 140 141 142 
+
+dynamic : 35 54 204 
+
+each : 54 129 141 163 
+
+early : 59 
+
+either : 82 
+
+employee : 61 63 64 71 72 73 
+
+employment : 71 
+
+engine : 75 90 91 
+
+english : 89 
+
+error : 165 169 175 176 
+
+even : 152 165 171 177 
+
+example : 3 65 69 74 124 130 138 192 
+
+experienced : 115 
+
+explained : 124 
+
+extreme : 112 
+
+fact : 202 
+
+fails : 168 
+
+feature : 21 
+
+figure : 129 140 142 
+
+figures : 127 
+
+file : 6 
+
+filled : 1 4 23 26 34 39 43 52 
+
+follow : 88 
+
+following : 21 192 198 
+
+for : 5 6 8 31 43 48 56 69 98 101 120 126 127 130 133 136 138 149 175 179 192 194 
+
+forth : 129 161 
+
+fortunately : 87 
+
+from : 12 44 66 67 141 194 195 198 
+
+function : 22 25 103 139 142 144 145 146 148 149 151 153 154 158 172 180 181 194 195 197 203 
+
+functions : 13 18 28 43 45 48 124 142 163 166 167 175 182 184 190 
+
+further : 176 
+
+give : 77 
+
+given : 147 149 152 
+
+graphics : 126 
+
+handling : 43 
+
+happens : 202 
+
+hard : 175 
+
+has : 58 68 73 80 82 90 127 
+
+have : 10 11 17 21 69 74 92 98 103 105 132 135 141 173 184 
+
+header : 6 
+
+height : 133 
+
+hold : 33 
+
+hourlyemployee : 60 62 64 
+
+how : 38 
+
+however : 101 142 161 194 
+
+implement : 163 
+
+implementation : 8 48 
+
+implemented : 167 
+
+important : 10 
+
+including : 145 
+
+incrementally : 159 
+
+indicate : 38 
+
+indicated : 145 
+
+indirectly : 153 
+
+inheritance : 97 108 110 114 117 119 
+
+inherited : 37 44 45 46 52 104 154 195 
+
+instructions : 140 
+
+int : 37 46 
+
+interface : 31 
+
+into : 164 
+
+invocation : 27 
+
+invoked : 153 
+
+invokes : 201 
+
+its : 142 
+
+jet : 75 90 91 
+
+jetengine : 79 80 85 92 95 
+
+just : 19 27 47 
+
+kind : 142 173 
+
+kinds : 127 
+
+known : 68 155 
+
+last : 27 
+
+late : 123 155 
+
+later : 24 
+
+leave : 120 
+
+legal : 188 192 
+
+less : 118 
+
+like : 19 
+
+listed : 100 
+
+little : 94 160 161 
+
+lost : 190 196 
+
+made : 10 86 
+
+make : 23 66 67 81 84 94 108 
+
+makes : 89 91 94 175 
+
+making : 197 
+
+manipulate : 45 
+
+may : 111 112 164 179 
+
+meaning : 28 
+
+means : 159 
+
+member : 12 13 14 17 21 25 28 33 34 37 48 53 71 78 93 105 132 136 146 158 163 166 167 172 190 194 195 197 
+
+members : 189 
+
+message : 173 
+
+messages : 165 169 175 176 
+
+method : 154 
+
+might : 70 129 132 135 
+
+modifier : 146 
+
+more : 63 66 67 78 89 98 120 161 
+
+most : 81 88 
+
+much : 7 38 
+
+multiple : 97 108 110 114 117 119 
+
+must : 203 
+
+name : 14 103 106 
+
+named : 37 75 
+
+natural : 88 
+
+need : 41 140 141 
+
+needs : 141 
+
+new : 48 54 148 
+
+next : 183 
+
+not : 29 110 112 113 118 163 165 167 173 182 184 190 191 195 197 202 
+
+note : 9 197 
+
+now : 139 
+
+numerous : 102 
+
+object : 16 19 20 61 129 150 188 189 191 194 200 201 
+
+occurs : 174 
+
+off : 189 
+
+omitting : 158 
+
+one : 10 66 77 99 172 
+
+only : 172 
+
+order : 203 
+
+other : 107 
+
+ovals : 128 
+
+package : 126 
+
+parameter : 104 
+
+parent : 138 
+
+partially : 1 4 23 26 34 43 52 
+
+passenger : 76 89 91 
+
+passengerairplane : 77 80 84 93 94 
+
+peek : 29 
+
+perhaps : 86 
+
+pet : 192 195 196 201 202 
+
+pfarrayd : 4 7 9 16 18 19 41 45 47 
+
+pfarraydbak : 15 17 20 31 32 41 49 50 
+
+point : 35 115 133 136 
+
+pointers : 204 
+
+position : 112 
+
+possibilities : 101 
+
+possible : 98 
+
+presented : 4 11 
+
+presents : 3 
+
+print : 201 202 
+
+private : 12 
+
+probably : 137 
+
+problem : 187 196 197 203 
+
+problems : 108 
+
+program : 30 
+
+programmer : 24 115 
+
+programming : 87 92 136 
+
+project : 137 
+
+protected : 12 
+
+pure : 182 184 
+
+questions : 106 
+
+radius : 136 
+
+ready : 180 
+
+real : 181 
+
+realize : 116 
+
+really : 178 
+
+records : 69 
+
+rectangle : 131 141 
+
+rectangles : 128 
+
+reference : 5 170 176 
+
+references : 120 
+
+regular : 52 
+
+relationship : 65 68 82 83 
+
+rely : 51 
+
+repeat : 6 7 
+
+restore : 25 
+
+resulting : 191 
+
+run : 164 
+
+same : 55 103 106 
+
+sample : 29 
+
+say : 73 79 89 90 
+
+screen : 140 
+
+second : 55 
+
+section : 183 
+
+see : 184 
+
+seems : 83 
+
+sense : 89 92 94 
+
+separated : 100 
+
+seriously : 113 
+
+set : 52 
+
+several : 127 
+
+should : 29 110 113 
+
+shown : 30 32 49 
+
+silly : 83 
+
+similar : 169 
+
+similarly : 191 
+
+simple : 99 
+
+simpler : 66 68 
+
+simply : 63 88 197 
+
+simulate : 75 76 
+
+since : 39 
+
+single : 137 
+
+situations : 81 
+
+size : 55 
+
+slices : 189 
+
+slicing : 187 196 197 203 
+
+software : 126 
+
+some : 109 117 164 179 
+
+sounds : 88 
+
+state : 26 
+
+stated : 63 
+
+still : 174 
+
+such : 61 128 
+
+suppose : 125 139 
+
+supposed : 184 
+
+syntax : 99 
+
+table : 170 
+
+technique : 87 118 
+
+test : 160 161 
+
+than : 90 99 
+
+that : 4 9 22 35 69 79 110 111 113 115 116 127 150 151 172 175 190 195 197 202 
+
+the : 3 6 8 10 11 13 14 17 18 19 20 21 23 24 25 26 27 28 29 31 32 34 36 39 40 42 44 46 47 48 50 51 52 54 55 56 60 61 62 65 68 71 72 77 84 85 87 94 95 99 100 101 103 106 130 133 140 142 145 146 147 149 150 151 152 154 158 165 168 175 181 183 187 189 190 191 192 194 195 196 197 200 201 202 203 
+
+then : 70 77 149 160 192 
+
+there : 21 39 41 171 176 
+
+these : 28 45 106 107 137 177 
+
+they : 47 
+
+this : 3 13 55 59 64 73 79 119 154 159 169 173 182 196 202 
+
+those : 141 
+
+time : 24 
+
+too : 112 
+
+trivial : 179 
+
+true : 113 
+
+try : 162 
+
+two : 33 102 105 
+
+type : 35 63 72 78 200 201 
+
+types : 104 
+
+unavailable : 191 
+
+unchanged : 44 
+
+undefined : 165 170 176 
+
+unless : 194 
+
+until : 114 180 
+
+use : 25 151 155 179 203 
+
+used : 19 47 53 56 111 153 
+
+usedb : 38 
+
+using : 16 60 117 
+
+value : 42 
+
+variable : 35 37 47 72 93 105 188 200 
+
+variables : 12 14 33 53 78 132 136 195 204 
+
+vdog : 195 200 
+
+version : 36 181 201 202 
+
+versus : 58 
+
+very : 99 108 114 175 
+
+veryhardtounderstand : 164 
+
+virtual : 124 144 145 146 148 151 152 154 158 162 167 170 172 176 180 182 184 197 203 
+
+vpet : 194 200 
+
+vpetprint : 201 
+
+want : 139 
+
+was : 27 152 
+
+way : 40 66 67 
+
+welldesigned : 136 
+
+what : 88 102 104 175 
+
+when : 200 
+
+which : 104 147 154 183 
+
+while : 133 
+
+width : 133 
+
+will : 8 13 15 17 21 35 116 118 150 176 184 190 
+
+wise : 159 
+
+with : 1 36 39 82 86 103 106 162 168 
+
+without : 175 
+
+work : 81 86 
+
+working : 37 
+
+would : 137 
+
+you : 29 69 70 81 113 114 116 125 139 140 141 162 164 165 179 180 183 203 
+
+your : 81 
+

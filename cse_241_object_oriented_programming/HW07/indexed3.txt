@@ -1,0 +1,1032 @@
+0001 : 26 
+
+015 : 41 
+
+1000 : 38 41 49 53 
+
+150 : 41 
+
+1678 : 75 
+
+225 : 43 
+
+3527392 : 3 
+
+5556 : 49 
+
+775 : 46 51 
+
+access : 198 199 205 207 218 
+
+accessing : 190 
+
+accessor : 189 196 
+
+actually : 146 
+
+add : 96 
+
+adding : 107 
+
+addition : 200 
+
+additional : 68 85 
+
+adds : 202 
+
+advantage : 187 233 
+
+advantages : 191 
+
+again : 199 
+
+against : 140 
+
+alias : 161 
+
+all : 134 137 188 206 224 231 233 
+
+allow : 205 
+
+already : 129 
+
+also : 59 114 172 202 221 
+
+alternative : 203 
+
+although : 198 
+
+always : 35 
+
+amount : 16 31 44 54 59 89 
+
+and : 5 18 30 32 39 55 64 68 73 78 83 88 89 110 135 140 141 142 152 158 169 171 177 189 190 192 196 197 202 206 208 213 223 230 232 234 236 
+
+announces : 67 71 
+
+annual : 30 32 
+
+another : 211 
+
+answer : 15 
+
+any : 76 150 172 226 
+
+apply : 173 
+
+are : 77 97 102 121 123 127 138 170 222 225 
+
+argument : 171 173 177 
+
+arguments : 142 170 180 182 188 224 233 
+
+around : 204 
+
+artificial : 9 16 23 
+
+assignment : 156 157 158 159 161 162 163 164 165 166 
+
+assume : 22 
+
+attend : 64 69 
+
+automatic : 169 172 188 204 206 223 233 
+
+automatically : 178 
+
+back : 142 
+
+bad : 51 166 
+
+base : 160 164 166 
+
+baseamount : 176 181 186 
+
+baseamount100 : 175 
+
+based : 47 
+
+basics : 81 
+
+because : 147 177 182 
+
+before : 94 113 152 
+
+behaved : 156 
+
+being : 134 
+
+believed : 143 
+
+beyond : 86 148 
+
+biggest : 187 
+
+binary : 170 
+
+bit : 52 202 235 
+
+book : 154 
+
+both : 191 205 208 
+
+boxes : 7 
+
+breakfast : 5 
+
+but : 12 51 172 183 207 
+
+bypassing : 189 
+
+calculate : 57 59 
+
+calculation : 50 52 
+
+callbyreference : 95 103 
+
+callbyvalue : 104 
+
+called : 96 121 191 
+
+calling : 106 109 171 182 183 
+
+can : 106 119 146 150 196 202 226 227 237 
+
+cannot : 12 72 179 182 
+
+capacity : 62 64 66 70 158 
+
+cause : 10 
+
+cents : 202 
+
+cereal : 5 7 
+
+certain : 191 
+
+change : 100 105 109 
+
+changed : 98 102 
+
+class : 102 121 124 140 196 207 208 210 211 212 213 215 219 227 229 234 
+
+classes : 228 
+
+code : 131 147 203 
+
+common : 225 
+
+commonly : 9 
+
+company : 27 
+
+compiler : 97 101 130 
+
+complete : 119 
+
+completely : 165 
+
+complicated : 52 
+
+computed : 40 
+
+computer : 111 
+
+concluded : 8 
+
+consider : 230 
+
+considered : 178 
+
+const : 24 34 93 94 97 107 111 112 115 
+
+constant : 96 100 103 
+
+constructor : 177 
+
+consumer : 35 45 51 53 54 58 
+
+contains : 22 
+
+conversion : 169 172 182 188 204 206 223 233 
+
+converted : 178 
+
+copies : 165 
+
+copy : 160 161 163 
+
+cost : 86 
+
+cover : 86 
+
+current : 21 
+
+data : 218 
+
+death : 10 
+
+decide : 149 237 
+
+declaration : 24 33 107 113 115 131 152 213 214 215 216 217 222 228 234 
+
+deducted : 45 
+
+define : 151 197 
+
+defined : 136 144 150 219 
+
+definition : 99 108 114 119 120 153 199 210 211 213 215 221 
+
+definitions : 121 122 124 129 144 145 220 234 
+
+dependents : 84 88 
+
+desperate : 11 
+
+determines : 60 
+
+diet : 10 13 22 
+
+dieter : 18 20 
+
+dieters : 21 
+
+dieting : 21 
+
+directly : 190 205 
+
+disadvantage : 139 
+
+discount : 36 
+
+discuss : 153 
+
+display : 124 125 179 184 197 198 200 210 220 222 223 224 
+
+divided : 49 
+
+does : 100 105 109 157 209 
+
+dollars : 51 
+
+double : 26 
+
+drink : 14 
+
+due : 31 72 
+
+dues : 84 
+
+duration : 39 56 
+
+dying : 14 
+
+each : 89 132 228 
+
+efficiency : 189 
+
+efficient : 135 146 199 
+
+element : 160 
+
+elementbyelement : 157 
+
+employee : 31 75 
+
+employees : 29 
+
+employer : 87 
+
+encapsulation : 141 235 
+
+end : 112 
+
+ensure : 18 
+
+equal : 47 66 134 138 
+
+error : 101 111 
+
+ever : 138 
+
+exactly : 219 
+
+example : 173 210 
+
+exceeds : 70 
+
+except : 216 
+
+excluded : 74 
+
+experts : 230 
+
+express : 26 34 
+
+extra : 86 
+
+extraordinary : 218 
+
+face : 38 41 45 48 57 
+
+federal : 80 
+
+feel : 231 
+
+figure : 42 
+
+final : 113 
+
+fire : 61 72 74 
+
+first : 204 
+
+following : 174 180 184 
+
+follows : 37 
+
+for : 28 58 76 79 80 82 83 90 95 123 131 145 149 163 173 182 183 206 210 229 237 
+
+form : 36 
+
+forth : 142 
+
+four : 201 
+
+fraction : 25 
+
+frequently : 147 
+
+friend : 11 12 19 191 195 205 207 209 210 212 214 215 217 219 221 222 225 226 227 228 229 230 
+
+friends : 212 233 237 
+
+from : 45 78 
+
+front : 214 
+
+full : 196 
+
+fullamount : 175 176 181 186 
+
+function : 99 102 105 106 107 109 110 112 114 115 120 122 123 128 130 131 133 134 136 144 145 150 151 152 153 191 207 209 212 213 214 215 216 217 218 219 220 221 222 226 227 228 
+
+functions : 118 126 127 138 149 153 190 191 195 196 197 209 225 230 232 
+
+further : 153 
+
+general : 148 
+
+generally : 143 
+
+get : 201 
+
+getdollars : 202 
+
+gets : 203 
+
+give : 12 25 101 111 119 198 199 228 
+
+given : 200 
+
+gives : 188 189 
+
+good : 165 
+
+government : 8 
+
+gross : 79 89 
+
+hand : 184 232 
+
+harder : 203 
+
+has : 8 38 84 172 177 196 207 215 
+
+have : 27 115 129 139 149 206 211 223 235 
+
+heading : 114 221 
+
+health : 86 
+
+held : 72 
+
+hence : 135 
+
+hold : 68 
+
+hour : 76 
+
+hours : 76 77 88 
+
+how : 13 68 73 
+
+however : 137 179 198 217 225 
+
+illegal : 180 
+
+immediately : 44 
+
+implementation : 140 
+
+include : 220 
+
+income : 82 
+
+increase : 28 34 
+
+increasing : 158 
+
+incur : 201 
+
+independent : 160 161 163 165 
+
+inefficiency : 202 
+
+inline : 118 121 122 125 127 130 131 134 138 145 149 150 152 153 
+
+input : 15 30 89 
+
+inputs : 54 
+
+inserted : 132 
+
+inside : 234 
+
+installment : 37 
+
+installments : 47 
+
+insurance : 86 
+
+int : 177 178 182 
+
+interest : 39 40 44 55 
+
+interface : 139 
+
+invocation : 133 
+
+invocations : 201 202 
+
+invoked : 133 222 
+
+its : 106 120 166 215 
+
+just : 113 127 152 200 209 216 222 224 228 
+
+keyword : 152 214 217 221 
+
+kill : 17 
+
+kind : 128 226 
+
+kinds : 225 
+
+know : 13 
+
+lab : 8 
+
+laboratory : 10 
+
+large : 147 
+
+law : 61 
+
+least : 235 
+
+leaving : 45 
+
+lefthand : 158 159 
+
+legal : 67 174 185 
+
+legally : 69 
+
+less : 65 146 
+
+like : 219 222 224 
+
+list : 216 
+
+listed : 215 
+
+listing : 213 
+
+loan : 35 36 37 38 43 48 56 
+
+location : 132 
+
+long : 145 
+
+longer : 170 
+
+look : 199 
+
+lose : 11 
+
+losing : 204 
+
+made : 47 226 
+
+make : 98 108 161 165 203 209 212 227 
+
+makes : 160 
+
+many : 68 73 230 
+
+mark : 106 
+
+marked : 110 
+
+matches : 115 
+
+maximum : 62 63 66 70 
+
+may : 25 50 69 198 199 
+
+meet : 74 
+
+meeting : 61 65 68 71 
+
+member : 105 120 128 169 170 179 189 190 199 201 203 205 207 208 209 216 217 232 
+
+members : 208 218 236 
+
+message : 101 111 
+
+method : 50 
+
+metric : 3 6 7 
+
+mice : 10 
+
+mistake : 99 108 
+
+mixing : 139 
+
+modifier : 24 34 93 94 107 
+
+money : 175 177 178 182 211 220 
+
+monthly : 32 47 48 59 
+
+months : 28 39 56 
+
+more : 52 84 127 135 227 235 
+
+most : 225 
+
+mouse : 17 18 
+
+much : 13 
+
+multiple : 228 
+
+multiplied : 42 
+
+multiplying : 40 
+
+must : 73 201 210 
+
+mutator : 189 196 197 
+
+name : 25 210 
+
+needed : 7 17 59 158 
+
+needs : 51 53 55 
+
+negotiating : 35 
+
+net : 90 
+
+new : 32 
+
+next : 192 
+
+nonfriend : 223 224 235 
+
+nonfriends : 236 
+
+nonmember : 151 153 184 187 188 197 223 224 235 236 
+
+not : 35 50 98 102 105 153 161 171 183 199 207 217 220 221 230 
+
+notational : 127 
+
+note : 163 
+
+noted : 173 
+
+number : 6 64 65 69 88 125 
+
+object : 106 110 171 182 
+
+objectoriented : 231 
+
+objects : 183 
+
+offers : 191 
+
+one : 7 36 78 171 177 227 
+
+onehalf : 78 
+
+onetenth : 22 
+
+only : 46 143 165 171 172 173 221 
+
+operand : 204 
+
+operands : 206 
+
+operator : 157 158 159 160 161 162 163 164 165 166 170 179 187 188 189 190 200 205 212 213 214 215 219 227 234 
+
+operators : 169 197 212 222 223 224 225 230 231 232 235 236 
+
+opposed : 198 
+
+order : 58 74 
+
+ordinarily : 103 
+
+ordinary : 218 219 
+
+other : 134 137 184 232 
+
+ounces : 3 5 
+
+our : 192 
+
+output : 5 89 
+
+outputs : 30 
+
+over : 77 
+
+overhead : 133 201 
+
+overload : 170 179 184 190 236 
+
+overloaded : 197 200 212 225 227 
+
+overloading : 187 188 189 191 203 205 232 
+
+overtime : 77 
+
+owed : 44 
+
+package : 4 
+
+paid : 75 77 
+
+parameter : 93 95 96 98 100 
+
+parameters : 101 104 
+
+particular : 27 219 
+
+pay : 28 31 34 79 89 90 
+
+payment : 48 59 
+
+pays : 87 
+
+people : 64 65 69 70 73 
+
+per : 75 83 
+
+percentage : 26 
+
+perfectly : 184 
+
+period : 43 
+
+piece : 147 
+
+place : 94 152 
+
+placed : 112 
+
+placing : 213 
+
+planned : 72 
+
+possible : 13 
+
+practical : 172 
+
+pragmatic : 233 
+
+precede : 216 
+
+prefer : 237 
+
+preferable : 136 
+
+presumably : 136 
+
+previous : 29 173 
+
+price : 204 
+
+principle : 141 
+
+private : 198 208 
+
+problem : 204 
+
+produce : 163 
+
+program : 4 14 16 19 29 53 56 60 63 67 71 87 
+
+programming : 1 231 
+
+projects : 1 
+
+provided : 159 
+
+provides : 233 234 
+
+pure : 231 
+
+qualifier : 220 
+
+rate : 39 55 75 77 
+
+rather : 21 104 200 217 
+
+read : 4 63 88 
+
+reading : 201 
+
+really : 218 
+
+receive : 55 58 
+
+regarding : 62 
+
+regular : 76 
+
+regulations : 61 72 74 
+
+repayment : 46 
+
+repeated : 147 
+
+requests : 20 
+
+required : 57 
+
+requires : 164 
+
+research : 8 
+
+resetting : 158 
+
+result : 14 
+
+retroactive : 28 31 
+
+reverse : 179 
+
+rewritten : 125 211 
+
+righthand : 162 164 
+
+room : 61 62 63 66 70 
+
+rule : 148 
+
+safety : 19 
+
+salary : 30 32 33 
+
+saves : 133 
+
+second : 171 173 
+
+security : 79 
+
+seen : 129 
+
+seldom : 138 
+
+semicolon : 113 
+
+sense : 230 
+
+set : 196 
+
+short : 123 143 
+
+shortcoming : 172 
+
+should : 57 59 98 103 114 135 144 232 
+
+shown : 220 235 
+
+shows : 124 
+
+side : 158 159 162 164 
+
+since : 234 
+
+six : 28 
+
+size : 159 
+
+social : 79 
+
+soda : 10 12 13 22 
+
+some : 230 
+
+special : 130 
+
+spirit : 231 
+
+state : 82 
+
+stop : 21 
+
+straightforward : 36 
+
+subsection : 173 
+
+such : 121 
+
+supply : 15 
+
+suppose : 38 
+
+sure : 19 
+
+sweetener : 9 16 23 
+
+symmetric : 171 
+
+take : 54 
+
+takehome : 90 
+
+takes : 29 
+
+tax : 79 82 
+
+technique : 237 
+
+telling : 97 
+
+tells : 68 73 
+
+than : 21 66 104 127 200 227 235 
+
+that : 4 9 22 29 42 44 53 60 67 71 77 78 88 89 97 99 102 109 115 143 148 163 164 178 191 208 216 231 
+
+the : 4 5 6 15 16 17 18 19 20 21 24 26 30 31 32 33 34 36 39 40 41 43 45 47 48 51 52 54 55 56 57 58 59 62 63 64 65 66 68 69 70 71 74 77 78 84 86 87 88 89 90 94 95 96 97 99 100 102 105 106 107 109 110 111 112 113 114 115 119 120 124 128 130 131 132 133 137 139 141 142 145 152 157 158 159 160 161 162 163 164 165 166 170 171 173 177 179 180 184 187 189 196 198 199 200 201 203 204 205 207 208 210 211 212 213 214 215 216 217 218 219 220 221 222 223 224 225 228 231 232 233 234 
+
+them : 199 
+
+then : 42 57 85 89 100 106 160 179 184 
+
+there : 190 
+
+these : 122 191 
+
+they : 223 231 
+
+things : 134 137 
+
+this : 25 50 97 133 154 171 177 187 198 202 204 211 
+
+three : 54 84 236 
+
+thus : 159 
+
+time : 211 
+
+times : 78 
+
+ton : 3 7 
+
+tons : 6 
+
+too : 50 
+
+topic : 192 
+
+total : 44 
+
+totally : 163 
+
+treats : 130 
+
+true : 171 231 
+
+two : 170 180 201 202 
+
+type : 94 102 160 165 166 169 172 177 178 182 188 204 206 223 233 
+
+typically : 123 
+
+unaesthetic : 172 
+
+understand : 203 
+
+union : 83 
+
+use : 23 33 149 153 196 221 
+
+used : 9 123 
+
+usual : 137 142 
+
+value : 26 38 41 45 48 57 105 177 178 
+
+values : 182 
+
+variable : 24 33 
+
+variables : 190 199 201 206 208 
+
+variant : 128 
+
+vector : 156 157 159 161 163 165 
+
+vectors : 157 
+
+version : 146 
+
+very : 123 143 172 
+
+violation : 61 
+
+want : 25 229 
+
+wants : 12 
+
+way : 131 137 190 
+
+ways : 236 
+
+week : 76 83 88 90 
+
+weight : 4 6 11 17 18 20 22 
+
+well : 6 156 
+
+what : 87 
+
+when : 96 170 
+
+where : 132 
+
+whether : 60 149 
+
+which : 20 37 49 229 237 
+
+will : 4 10 20 49 53 63 88 89 101 111 148 153 161 172 177 205 
+
+with : 24 33 46 110 125 157 177 218 
+
+withheld : 79 80 82 83 85 
+
+withholding : 89 
+
+within : 120 
+
+without : 14 
+
+won : 27 
+
+worked : 76 88 
+
+worker : 84 
+
+workers : 27 79 89 
+
+works : 37 182 
+
+would : 174 216 
+
+write : 3 14 29 53 60 87 
+
+years : 43 
+
+yet : 211 
+
+yield : 7 43 
+
+yielding : 41 
+
+you : 25 94 96 97 98 106 108 119 148 170 179 184 188 189 196 198 199 210 212 216 221 229 236 237 
+
+your : 12 19 99 108 196 
+
+yours : 11 
+
+yourself : 149 237 
+
