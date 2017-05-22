@@ -1,6 +1,6 @@
 # GIT_Homeworks
 
-GebzeTechnical Universtiy Homeworks
+GebzeTechnical Universtiy CS Homeworks
 
 CSE 102 - C     - Introduction to Computer Programming<br>
 CSE 241 - C++   - Object Oriented Programming<br>
